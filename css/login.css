@@ -1,0 +1,116 @@
+.login_box{overflow: hidden;margin-top: 20px;}
+.login_l{float: left;}
+.login_r{float: right;width: 602px;box-shadow: 0 0 3px #666;background:#fff;margin-right: 3px;margin-bottom: 3px;}
+.login_tit,.login_big{}
+.login_tit ul{overflow:hidden;}
+.login_tit li{height: 46px;width: 300px;text-align: center;line-height: 46px;background: #f5f5f5;float: left;font-size:14px;cursor: pointer;color:#666;border:1px solid #999;box-shadow:0 0 4px #666 ;}
+.login_tit li a{height: 46px;width: 300px;display: inline-block;}
+.login_tit .on{background:#fff;border:0 none;border-top:2px solid #358000;color:#358000;}
+.hezi{padding-left:20px;box-sizing: border-box;margin-top: 50px;}
+.hezi p{height: 32px;line-height: 32px;margin-bottom: 30px;}
+.name_b{width: 80px;font-size:16px;color:#666;margin-right: 10px;height: 32px;line-height: 32px;display: inline-block;text-align: right;}
+.login_ipt{width: 240px;height: 30px;line-height: 30px;border:1px solid #999;margin-right: 10px;}
+.col_cg{color:#3366cc;cursor: pointer;}
+.login_btn{background:#f7880d;width: 240px;height: 32px;text-align: center;line-height: 32px;color:#fff;display: inline-block;margin-left: 95px;border:0 none;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;font-size:16px;cursor: pointer;}
+.login_btn a{color:#fff;width: 240px;height: 32px;}
+.login .worrd{margin:40px 0 20px 0;}
+.pic span{margin-right: 20px;width: 78px;height: 22px;display: inline-block;cursor: pointer;}
+.mess{text-align: center;}
+.agree{background:#3c8603;width: 240px;height: 34px;color:#fff;text-align: center;line-height: 34px;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;margin:20px auto;cursor: pointer;}
+/* demo */
+.demo{width:600px;margin:50px auto 0 auto;}
+.demo table td{height:70px;vertical-align:top;}
+.demo table .tdcon{text-align:right;width:160px;padding:5px 0 0 0;height:45px;font-size:16px;}
+.demo table .stext{border:solid 1px #999;height:28px;line-height:20px;font-size:12px;padding:2px;width:238px;float:left;}
+/* tipinfo */
+.tipinfo{float:left;}
+.tipinfo font.error{background:url("../img/unchecked.jpg") no-repeat left;padding-left:17px;color:#eb0000;width:300px;display:block;}
+.tipinfo font.valid{background:url("../img/checked.gif") no-repeat left;width:14px;height:13px;overflow:hidden;padding:0;margin:5px 0 0 5px;display:inline-block;} 
+
+
+/* Button base */
+.Button{
+    position:relative;
+    display:inline-block;
+    padding:.45em .825em .45em;
+    text-align:center;
+    line-height:1em; 
+    border:1px solid transparent;
+    cursor:pointer; 
+     
+    border-radius:.3em; 
+    -moz-border-radius:.3em; 
+    -webkit-border-radius:.3em; 
+    
+    -moz-transition-property:color, -moz-box-shadow, text-shadow; 
+    -moz-transition-duration:.05s; 
+    -moz-transition-timing-function:ease-in-out; 
+    -webkit-transition-property:color, -webkit-box-shadow, text-shadow; 
+    -webkit-transition-duration:.05s; 
+    -webkit-transition-timing-function:ease-in-out; 
+    
+    box-shadow:0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35); 
+    -moz-box-shadow:0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35); 
+    -webkit-box-shadow:0 1px rgba(255,255,255,0.8), inset 0 1px rgba(255,255,255,0.35);
+}
+
+.Button:hover {text-decoration:none;}
+.Button strong {position:relative; z-index:2;}
+
+.Button{
+    display:block;border:1px solid;opacity:1;
+    
+    border-radius:.3em;
+    -moz-border-radius:.3em;
+    -webkit-border-radius:.3em;
+    
+    box-shadow:inset 0 1px rgba(255,255,255,0.35);
+    -moz-box-shadow:inset 0 1px rgba(255,255,255,0.35);
+    -webkit-box-shadow:inset 0 1px rgba(255,255,255,0.35);
+    
+    -moz-transition-property:opacity;
+    -moz-transition-duration:0.5s;
+    -moz-transition-timing-function:ease-in-out;
+    -webkit-transition-property:opacity;
+    -webkit-transition-duration:0.5s;
+    -webkit-transition-timing-function:ease-in-out;
+}
+
+.Button:hover span{
+    -moz-transition-property:opacity;
+    -moz-transition-duration:0.05s;
+    -moz-transition-timing-function:linear;
+    -webkit-transition-property:opacity;
+    -webkit-transition-duration:0.05s;
+    -webkit-transition-timing-function:linear;
+}
+.Button:active span{
+    -moz-transition:none;
+    -webkit-transition:none;
+}
+
+/* Blue Button */
+.BlueButton{color:#fcf9f9; text-shadow:0 -1px rgba(34,25,25,0.5);}
+.BlueButton a{color:#fff;}
+.BlueButton:hover {color:#fff; text-shadow:0 -1px rgba(34,25,25,0.3);}
+.BlueButton:active {color:#f2f0f0; text-shadow:0 -1px rgba(34,25,25,0.6);}
+
+.BlueButton{
+    width: 240px;
+    height: 32px;
+    border-color:#3c8603;
+    background-color:#3c8603;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+.BlueButton.Button18:hover{
+    box-shadow:0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 10px rgba(82, 162, 235, 0.25);
+    -moz-box-shadow:0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 10px rgba(82, 162, 235, 0.25);
+    -webkit-box-shadow:0 1px rgba(255, 255, 255, 0.8), 0 1px rgba(255, 255, 255, 0.35) inset, 0 0 10px rgba(82, 162, 235, 0.25);
+}
+.BlueButton.Button18:active{
+    box-shadow:0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 3px rgba(82, 202, 235, 0.35);
+    -moz-box-shadow:0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 3px rgba(82, 202, 235, 0.35);
+    -webkit-box-shadow:0 1px 2px rgba(34, 25, 25, 0.25) inset, 0 0 3px rgba(82, 202, 235, 0.35);    
+} 
